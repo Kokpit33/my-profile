@@ -1,0 +1,24 @@
+footer{
+    background-color: rgb(175,195, 176);
+    width: 100%;
+    height: 20vh;
+}
+.fa-github{
+    position: absolute;
+    font-size: x-large;
+    left:10%;
+
+}
+.fa-instagram{
+    position: absolute;
+    margin-top: 50px;
+    font-size: x-large;
+    left:10%;
+}
+.fa-whatsapp{
+    position: absolute;
+    margin-top: 50px;
+    font-size: x-large;
+    left:50%;
+
+}

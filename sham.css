@@ -1,0 +1,151 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+}
+.main-menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 60px;
+    overflow: hidden;
+    background-color: #fff9;
+    opacity: 2;
+    transition: width .05s linear;
+    -webkit-transition: width .05s linear;
+    z-index: 10;
+    padding-top: 10px;
+
+}
+.main-menu:hover {
+    width: 200px;
+    overflow: visible;
+}
+.main-menu ul li {
+    position: relative;
+    display: block;
+    width: 180px;
+}
+.main-menu ul li a{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:rgb(239,246,224);
+    font-size: 1rem;
+    transition: all .1s linear;
+    -webkit-transition: all .1s linear;
+    padding: 18px 0;
+}
+a{
+    color: azure
+}
+.nav-icon{
+    width: ;
+    height: ;
+    font-size: ;
+    text-align: ;
+
+}
+.nav-text {
+    width: 180px;
+    height: 20px;
+    font-family: "mulish",sans-serif;
+    border-radius: 10px;
+}
+.logout{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+.boo{
+    background-color:rgb(239,246,224);
+    width: 100%;
+    height: 75vh;
+}
+
+.gar{
+    position: relative;
+    background-color: ;
+    width: 100%;
+    height: 30vh;
+    
+}
+.pic{
+    position: absolute;
+    background-color: b;
+    width: 50%;
+    height: 20vh;
+    
+}
+.para{
+    position: absolute;
+    left: 50%;
+    background-color: ;
+    color: rgb(1,22,30);
+    width: 50%;
+    height: 20vh;
+    
+}
+.navi{
+    position: relative;
+    width: 100%;
+    height:10vh;
+}
+
+.navi ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style:none ;
+}
+.navi ul li a{
+    position: absolute;
+    text-decoration: none;
+    border-radius: 20px;
+    box-shadow: 0 0 8px rgb(82, 80, 80);
+    color:  rgb(239,246,224);
+    background-color: rgb(18,69, 89);
+    width: 8vw;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media only screen and (max-width:762px){
+  
+}
+    
+ul li {
+    position: relative;
+    display: flex;
+    justify-content:end ;
+    align-items: end;
+        
+}
+    ul li a{
+        position: absolute;
+    }
+
+h4{
+    animation-name: word;
+    animation-duration: 3s;
+}
+@keyframes word{
+    from{transform: scale(0deg)}
+    to{transform: scale(360deg);}
+}
+
+ul li:hover{
+    background-color:rgb(89,131, 146);
+    color: rgb(174,195, 176);
+} 
+ul li a{
+    position: absolute;
+    left: 1rem;;
+
+}
+
